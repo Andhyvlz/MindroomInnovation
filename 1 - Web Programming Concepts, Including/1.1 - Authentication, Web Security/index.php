@@ -20,10 +20,6 @@
         <input type="submit" value="Create password">   
     </form>
     <hr>
-    <?php
-        print_r($_SESSION);
-    ?>
-    <hr>
     <h3>Enter a password to check</h3>
     <form action="pages/dashboard.php" method="post">
         <input type="password" name="password" placeholder="Enter password">
