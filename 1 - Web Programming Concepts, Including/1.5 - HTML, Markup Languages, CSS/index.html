@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child selector example</title>
+    <style>
+        div p {
+            background-color: lightcoral;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            This paragraph is a direct child of the div element.
+        </p>
+        <span>
+            <p>
+                This paragraph is not a direct child of the div element.
+            </p>
+        </span>
+        <p>
+            This is a direct child of the div element.
+        </p>
+    </div>
+    <p>
+        This paragraph is outside the div element.
+    </p>
+</body>
+</html>
