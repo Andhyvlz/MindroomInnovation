@@ -1,7 +1,5 @@
 <?php
     session_start();
-    $_SESSION['school'] = 'Mindroom';
-    $_SESSION['burb'] = 'This information was assigned on the first page';
     print_r($_SESSION);
 ?>
 <!DOCTYPE html>
