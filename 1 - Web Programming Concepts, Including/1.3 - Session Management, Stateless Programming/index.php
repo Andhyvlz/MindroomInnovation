@@ -3,6 +3,8 @@
     session_start();
     $_SESSION['school'] = 'Mindroom';
     print_r($_SESSION);
+    $usid = session_id();
+    echo '<br>'.$usid;
 ?>
 <html lang="en">
 <head>
