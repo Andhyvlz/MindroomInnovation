@@ -20,6 +20,10 @@
         function hellowWorld() {
             document.write('Hello world!');
         }
+        document.getElementById('id').
+        addEventListener('click', function () {
+            //function code here
+        });
     </script>
 </body>
 </html>
