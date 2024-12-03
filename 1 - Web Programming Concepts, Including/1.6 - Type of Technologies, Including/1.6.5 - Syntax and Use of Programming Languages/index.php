@@ -1,5 +1,7 @@
 <?php
     $hello = 'hello world';
+    $Hello = 'Wrong hello';
+    $HELLO = 'Yeo, very much wrong';
     echo $hello;
 ?>
 <!DOCTYPE html>
