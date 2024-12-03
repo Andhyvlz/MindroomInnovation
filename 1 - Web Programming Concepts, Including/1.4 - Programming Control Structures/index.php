@@ -6,15 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <code>
-        if (this > that) { 
-            <br>
-            do cool stuff there
-        } else { 
-            <br>
-            information user that something has gone horribly wrong 
-            <br>
+<?php
+        $x = 10;
+        if ($x == 10) {
+            echo 'We have a match';
         }
-    </code>
+    ?>
 </body>
 </html>
