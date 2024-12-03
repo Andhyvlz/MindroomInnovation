@@ -6,14 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    <br>
-    <script>
-        document.write('Javascript ');
-        i = 0;
+    <?php
+        $r = 0;
+        $range = 50;
         do {
-            document.write(i + ' - ');
-            i++;
-        } while(i < 7);
-    </script>
+            if ($r%3==0 && $r%5==0) {
+                echo 'fizzbuzz';
+            } else if ($r%3==0) {
+                echo 'fizz';
+            } else if ($r%5==0) {
+                echo 'buzz';
+            } else {
+                echo $r;
+            }
+            echo '<br>';
+            $r++;
+        } while ($r<=$range);
+    ?>
 </body>
 </html>
