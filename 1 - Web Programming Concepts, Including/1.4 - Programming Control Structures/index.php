@@ -6,13 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <br>
-    <script>
-        document.write('Javascript ');
-        for (i = 0; i < 5; i++) {
-            document.write(i + ' - ');
-            
+    <?php
+        echo 'PHP - ';
+        $i = 0;
+        while ($i < 6) {
+            echo $i.' - ';
+            $i++;
         }
-    </script>
+    ?>
 </body>
 </html>
