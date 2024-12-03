@@ -6,11 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        $x = 10;
-        if ($x == 10) {
-            echo 'We have a match';
+    <script>
+        x = 10;
+        if(x==10) {
+            document.write('Javascript - match');
         }
-    ?>
+    </script>
 </body>
 </html>
