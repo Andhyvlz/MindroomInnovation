@@ -83,6 +83,38 @@
             border-radius: 1em;
             transition: 1s;
         }
+        .item1:hover {
+            transform: rotate3d(1, 1, 0, 360deg);
+            transition: 3s ease-in-out;
+        }
+        .item2:hover {
+            width: 80%;
+            border: 1em solid black; transition: 1s;
+        }
+        .item3:hover {
+            scale: 0.8;
+            animation: rotate 2s linear;
+        }
+        .item4:hover {
+            scale: 0.9;
+            box-shadow: .2em .2em rgb(255, 0, 0);
+        }
+        .item5:hover {
+            width: 80%;
+            transition: 1s ease-in-out;
+        }
+        .item6:hover {
+            scale: 0.9;
+            filter: grayscale(100%);
+        }
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
     </style>
 </head>
 <body>
