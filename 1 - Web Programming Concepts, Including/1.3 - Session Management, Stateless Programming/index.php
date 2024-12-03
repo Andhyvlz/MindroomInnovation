@@ -5,6 +5,9 @@
     print_r($_SESSION);
     $usid = session_id();
     echo '<br>'.$usid;
+    session_unset();
+    echo '<br>';
+    print_r($_SESSION);
 ?>
 <html lang="en">
 <head>
