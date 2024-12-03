@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<?php
+    <?php
         $x = 10;
         if ($x == 10) {
             echo 'We have a match';
