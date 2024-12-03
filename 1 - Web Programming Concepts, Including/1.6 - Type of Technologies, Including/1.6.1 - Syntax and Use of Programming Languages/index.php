@@ -25,5 +25,8 @@
             //function code here
         });
     </script>
+    <?php
+        //PHP code goes here
+    ?>
 </body>
 </html>
