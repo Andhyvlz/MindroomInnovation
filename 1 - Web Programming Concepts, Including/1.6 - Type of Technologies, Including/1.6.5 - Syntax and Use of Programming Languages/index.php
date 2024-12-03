@@ -1,3 +1,7 @@
+<?php
+    $hello = 'hello world';
+    echo $hello;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +10,6 @@
     <title>Document</title>
 </head>
 <body>
-    <p>
-        This is simple text
-    </p>
-    <script src="script.js"></script>
+    
 </body>
 </html>
