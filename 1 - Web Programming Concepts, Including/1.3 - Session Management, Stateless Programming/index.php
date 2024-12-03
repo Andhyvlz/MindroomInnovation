@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <?php
     session_start();
+    $_SESSION['school'] = 'Mindroom';
+    print_r($_SESSION);
 ?>
 <html lang="en">
 <head>
