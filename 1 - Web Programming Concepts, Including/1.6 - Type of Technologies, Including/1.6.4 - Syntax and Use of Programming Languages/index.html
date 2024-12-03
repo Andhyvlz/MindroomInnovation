@@ -10,25 +10,33 @@
             padding: 0;
             box-sizing: border-box;
         }
-        .box {
-            width: 20vw;
-            height: 20vh;
-            background-color: cadetblue;
-        }
         .flex-content {
             display: flex;
             justify-content: space-evenly;
-            flex-direction: column;
-            height: 100vh;
+            width: 100vw;
+            background-color: rgb(208, 208, 208);
+        }
+        .box {
+            width: 20vw;
+            height: 20vh;
+        }
+        .cb {
+            background-color: cadetblue;
+        }
+        .red {
+            background-color: red;
+        }
+        .ch {
+            background-color: chocolate;
         }
     </style>
 </head>
 <body>
     <div class="flex-content">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+        <div class="box cb"></div>
+        <div class="box red"></div>
+        <div class="box ch"></div>
+        <div class="box cb"></div>
     </div>
 </body>
 </html>
