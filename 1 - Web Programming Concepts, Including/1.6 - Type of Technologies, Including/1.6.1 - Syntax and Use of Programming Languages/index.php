@@ -9,13 +9,17 @@
         .name {
             color: black;
         }
-
         #color {
             color: white;
         }
     </style>
 </head>
 <body>
-    
+    <script>
+        hellowWorld();
+        function hellowWorld() {
+            document.write('Hello world!');
+        }
+    </script>
 </body>
 </html>
