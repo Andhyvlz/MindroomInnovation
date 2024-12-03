@@ -9,134 +9,20 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            overflow: hidden;
         }
-        .header {
-            width: 100vw;
-            height: auto;
-        }
-        .nav {
-            width: 60vw;
-            height: auto;
-            margin: 0 auto;
-        }
-        ul {
-            list-style: none;
-        }
-        li {
-            float: left;
-        }
-        ul li a {
-            margin: 0 5vw;
-            text-decoration: none;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: black;
-            font-size: 1.6em;
-            line-height: 2.2em;
-        }
-        ul li a:hover {
-            color: rgb(100, 100, 100);
-        }
-        .title {
-            width: 40vw;
-            margin: 0 auto;
-            font-size: 5em;
-            color: rgb(85, 170, 244);
-            text-shadow: .02em .02em black;
-            padding: 1em;
-        }
-        .container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-            gap: 10px;
-            margin-bottom: 5vh;
-            width: 90vh;
-            margin: 0 auto;
-        }
-        .item1 {
-            grid-column: 1/span 2;
-            grid-row: 1/span 2;
-        }        
-        .item2 {
-            grid-column: 3/span 1;
-            grid-row: 1/span 1;
-        }        
-        .item3 {
-            grid-column: 3/span 1;
-            grid-row: 2/span 1;
-        }        
-        .item4 {
-            grid-column: 1/span 1;
-            grid-row: 3/span 1;
-        }        
-        .item5 {
-            grid-column: 2/span 1;
-            grid-row: 3/span 1;
-        }        
-        .item6 {
-            grid-column: 3/span 1;
-            grid-row: 3/span 1;
-        }
-        img {
-            width: 100%;
-            border-radius: 1em;
-            transition: 1s;
-        }
-        .item1:hover {
-            transform: rotate3d(1, 1, 0, 360deg);
-            transition: 3s ease-in-out;
-        }
-        .item2:hover {
-            width: 80%;
-            border: 1em solid black; transition: 1s;
-        }
-        .item3:hover {
-            scale: 0.8;
-            animation: rotate 2s linear;
-        }
-        .item4:hover {
-            scale: 0.9;
-            box-shadow: .2em .2em rgb(255, 0, 0);
-        }
-        .item5:hover {
-            width: 80%;
-            transition: 1s ease-in-out;
-        }
-        .item6:hover {
-            scale: 0.9;
-            filter: grayscale(100%);
-        }
-        @keyframes rotate {
-            from {
-                transform: rotate(0deg);
-            }
-            to {
-                transform: rotate(360deg);
-            }
+        .box {
+            width: 20vw;
+            height: 20vh;
+            background-color: cadetblue;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <div class="nav">
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                    <a href="#">Gallery</a>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <div class="title">Image Gallery</div>
-    </div>
-    <div class="container">
-        <img src="images/pexels-seanrvalentine-5015450.jpg" class="item1">
-        <img src="images/pexels-lukas-hartmann-304281-1462011.jpg" class="item2">
-        <img src="images/pexels-souvenirpixels-1539225.jpg" class="item3">
-        <img src="images/pexels-pixabay-147411.jpg" class="item4">
-        <img src="images/pexels-bri-schneiter-28802-346529.jpg" class="item5">
-        <img src="images/pexels-therato-3472764.jpg" class="item6">
+    <div class="flex-content">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
     </div>
 </body>
 </html>
