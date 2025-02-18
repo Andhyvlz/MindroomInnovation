@@ -1,0 +1,19 @@
+<div class="body">
+    <h3>Contact Form</h3>
+    <div class="containerContact">
+        <form action="">
+            <input type="text" id="inputFirstname" name="firstname" placeholder="Your firs tname">
+            <input type="text" id="inputLastname" name="lastname" placeholder="Your last name">
+            <select id="selectCountry" name="country">
+                <option value="" selected disabled hidden>Your country</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+            <textarea id="textareaSubject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit" onsubmit="serverError(e)">
+            <div id ="myAnimation">error</div>
+        </form>
+    </div>
+</div>

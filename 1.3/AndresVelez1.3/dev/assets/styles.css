@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.header {
+    width: 100vw;
+    height: auto;
+}
+.nav {
+    width: 60vw;
+    height: auto;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
+li {
+    float: left;
+}
+ul li a {
+    margin: 0 5vw;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 1.6em;
+    line-height: 2.2em;
+}
+ul li a:hover {
+    color: rgb(100, 100, 100);
+}
+form {
+    /*if the cart is above the products*/
+    /*padding-right: 10%;*/
+}
+.divGallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 30vw;
+    position: relative;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+.title {
+    position: absolute;
+    left: 40%;
+    font-size: 2em;
+    -webkit-text-stroke: 0.01em black; /* width and color */
+    font-family: sans; color: white;
+}
+.quantity {
+    border: 1em solid transparent;
+    border-color: #fff transparent transparent transparent;
+    width: 100%;
+}
+.cart {
+    position: absolute;
+    float: right;
+    bottom: 0;
+    width: 20%;
+    right: 0;
+}
+#Tableproductos {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#Tableproductos td, #Tableproductos th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#Tableproductos tr:hover {
+    background-color: #ddd;
+}
+#Tableproductos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
