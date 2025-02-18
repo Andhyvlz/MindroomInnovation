@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="../index.html">Sequential Logic</a>
+                    <a href="if.html">If</a>
+                    <a href="switch.html">Switch</a>
+                    <a href="for.html">For</a>
+                    <a href="while.html">While</a>
+                    <a href="do.html">Do</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="body">
+        <h1>
+            Switch statement
+        </h1>
+        <br>
+        <table>
+            <tr>
+                <td>
+                    <img src="../resources/switch.png" alt="Switch statement">
+                </td>
+                <td>
+                    Switch statement is used when you want to execute something based on some values. <br>
+                    It is usually better than multiple if statements when we have to check for multiple possible conditions.
+                </td>
+            </tr>
+        </table>
+        <br>
+        <h2>
+            Switch case
+        </h2>
+        <br>
+        <pre>
+            switch ($x) {
+                case -1:
+                    $x = $x * $x; //instruction 1
+                    echo $x; //instruction 2
+                    break;
+                case 1:
+                    $x = $x / $x; //instruction 3
+                    echo $x; //instruction 4
+                    break;
+                default:
+                echo $x; //instruction 5
+            }
+        </pre>
+    </div>
+</body>
+</html>
