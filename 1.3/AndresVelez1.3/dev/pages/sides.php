@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../assets/styles.css">
 </head>
 <body>
-    <h1 style="text-indent: 7em; font-family: Ravie; color: khaki;">
+    <h1 class="header">
         Sides
     </h1>
     <form action="../pages/desserts.php" method="post">

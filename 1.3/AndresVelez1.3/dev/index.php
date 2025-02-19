@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-    <h1 style="text-indent: 7em; font-family: Ravie; color: khaki;">
+    <h1 class="header">
         Burgers
     </h1>
     <form action="pages/drinks.php" method="post">

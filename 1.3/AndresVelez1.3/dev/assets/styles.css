@@ -4,6 +4,10 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
+body {
+    background-image: url('../resources/back.jpg');
+
+}
 .header {
     width: 100vw;
     height: auto;
@@ -43,6 +47,12 @@ form {
     text-align: center;
     color: white;
     cursor: pointer;
+}
+.header {
+    backdrop-filter: sepia(90%);
+    text-indent: 7em; 
+    font-family: Ravie; 
+    color: khaki;
 }
 .image {
     width: 100%;
