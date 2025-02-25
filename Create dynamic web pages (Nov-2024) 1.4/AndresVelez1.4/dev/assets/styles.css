@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.header {
+    width: 100vw;
+    height: auto;
+}
+.nav {
+    width: 60vw;
+    height: auto;
+    margin: 0 auto;
+}
+.body {
+    margin: 2%;
+}
+pre {
+    background: silver;
+    padding: 0.5%;
+    border: 0.5rem solid gold;
+}
+ul {
+    list-style: none;
+}
+li {
+    float: left;
+}
+ul li a {
+    margin: 0 5vw;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 1.6em;
+    line-height: 2.2em;
+}
+ul li a:hover {
+    color: rgb(100, 100, 100);
+}
+td {
+    padding: 2rem;
+}

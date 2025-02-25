@@ -39,8 +39,8 @@ form {
     /*padding-right: 10%;*/
 }
 .divGallery {
-    margin: 5px;
-    border: 1px solid #ccc;
+    margin: 0.5%;
+    border: 0.1em solid #ccc;
     float: left;
     width: 30vw;
     position: relative;
@@ -64,7 +64,8 @@ form {
     left: 40%;
     font-size: 2em;
     -webkit-text-stroke: 0.01em black; /* width and color */
-    font-family: sans; color: white;
+    font-family: sans; 
+    color: white;
 }
 .quantity {
     border: 1em solid transparent;
@@ -84,15 +85,15 @@ form {
     width: 100%;
 }
 #Tableproductos td, #Tableproductos th {
-    border: 1px solid #ddd;
-    padding: 8px;
+    border: 0.1em solid #ddd;
+    padding: 0.8em;
 }
 #Tableproductos tr:hover {
     background-color: #ddd;
 }
 #Tableproductos th {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
     text-align: left;
     background-color: #04AA6D;
     color: white;
@@ -101,11 +102,11 @@ form {
     background-color: #04AA6D;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 1.5em 3.2em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1.6em;
+    margin: 0.4em 0.2em;
     cursor: pointer;
-  }
+}
